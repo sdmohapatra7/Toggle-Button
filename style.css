@@ -1,0 +1,49 @@
+#container{
+	margin-top: 15%;
+	height: 30vh;
+	width: 100vw;
+	display: flex;
+	text-decoration: column;
+	justify-content: center;
+	align-content: space-between;
+	font-size: 7vh;
+	font-weight: bold;
+}
+.oval{
+	height: 30px;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 20px;
+	position: relative;
+	cursor: pointer;
+}
+.circle{
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	border-radius: 50%;
+}
+#text{
+	text-align: center;
+	font-size: 2rem;
+}
+.toggleOval{
+	height: 30px;
+	width: 150px;
+	border: 2px solid white;
+	border-radius: 20px;
+	position: relative;
+	background-color: white;
+}
+.toggleCircle{
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 120px;
+}
+.toggleBack{
+	background-color: black;
+	color: white;
+}
